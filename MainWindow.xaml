@@ -1,0 +1,39 @@
+﻿<Window x:Class="LineBalancingAlgorithm.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LineBalancingAlgorithm"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="1600">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <DataGrid Name="Grid1" Height="Auto" Grid.RowSpan="2"  AlternatingRowBackground="LightGray" HorizontalScrollBarVisibility="Auto" AutoGenerateColumns="False" CanUserAddRows="True" CanUserDeleteRows="True" CanUserReorderColumns="True" CanUserSortColumns="True" CanUserResizeColumns="True" CanUserResizeRows="True"  >
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="No."  Binding="{Binding Path=Num}" />
+                <DataGridTextColumn Header="Work Element Description (for own refrence)" Binding="{Binding Path=Description}" />
+                <DataGridTextColumn Header="Tek [min]" Binding="{Binding Path=Tek}" />
+                <DataGridTextColumn Header="Must Be Preceded By" Binding="{Binding Path=PrecededBy}" />
+                <DataGridTextColumn Header="RPW" Binding="{Binding Path=RPW}" />
+                <DataGridTextColumn Header="Column" Binding="{Binding Path=Column}" />
+                <DataGridTextColumn Header="Branch" Binding="{Binding Path=Branch}" />
+            </DataGrid.Columns>
+        </DataGrid>
+        <!--<Button Name="BtnAdd" Content="Add new row"/>-->
+        <Button Height="Auto" Grid.Row="2" Name="BtnCalc" Content="Calculate" VerticalAlignment="Bottom"/>
+
+        <Label Content="Precedence diagram" Grid.Column="1" Grid.Row="0" FontWeight="Bold" FontSize="14" HorizontalAlignment="Center" VerticalAlignment="Top" Height="30" />
+        <Image x:Name="Diagram" Grid.Column="1" Grid.Row="1" Height="Auto" Width="Auto"/>
+        <Button Height="Auto" Grid.Column="1" Grid.Row="2" Name="BtnCopy" Content="Copy" VerticalAlignment="Bottom"/>
+        <GridSplitter x:Name="gridSplitter" Grid.Column="1" HorizontalAlignment="Left" Height="434" VerticalAlignment="Top" Width="5" Grid.RowSpan="3"/>
+    </Grid>
+</Window>

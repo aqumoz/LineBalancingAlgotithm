@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "Pqc2U3qsu7nD6Vd1oc6JVVUsnq5fAGpa1LJoRhVhGt+P8duSLT9aXAmANbrC60MoC6cPFhR91LXS0J1CdmZTRA==",
+  "success": true,
+  "projectFilePath": "D:\\pDepot\\LineBalancingAlgorithm\\LineBalancingAlgorithm.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\amj\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
+    "C:\\Users\\amj\\.nuget\\packages\\system.drawing.common\\6.0.0\\system.drawing.common.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

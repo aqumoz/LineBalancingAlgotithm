@@ -1,0 +1,10 @@
+D:\pDepot\LineBalancingAlgorithm\bin\Release\net5.0-windows\publish\LineBalancingAlgorithm.exe
+D:\pDepot\LineBalancingAlgorithm\bin\Release\net5.0-windows\publish\LineBalancingAlgorithm.dll
+D:\pDepot\LineBalancingAlgorithm\bin\Release\net5.0-windows\publish\LineBalancingAlgorithm.deps.json
+D:\pDepot\LineBalancingAlgorithm\bin\Release\net5.0-windows\publish\LineBalancingAlgorithm.runtimeconfig.json
+D:\pDepot\LineBalancingAlgorithm\bin\Release\net5.0-windows\publish\LineBalancingAlgorithm.pdb
+D:\pDepot\LineBalancingAlgorithm\bin\Release\net5.0-windows\publish\Microsoft.Win32.SystemEvents.dll
+D:\pDepot\LineBalancingAlgorithm\bin\Release\net5.0-windows\publish\System.Drawing.Common.dll
+D:\pDepot\LineBalancingAlgorithm\bin\Release\net5.0-windows\publish\runtimes\win\lib\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
+D:\pDepot\LineBalancingAlgorithm\bin\Release\net5.0-windows\publish\runtimes\unix\lib\netcoreapp3.1\System.Drawing.Common.dll
+D:\pDepot\LineBalancingAlgorithm\bin\Release\net5.0-windows\publish\runtimes\win\lib\netcoreapp3.1\System.Drawing.Common.dll
